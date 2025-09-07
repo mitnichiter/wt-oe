@@ -262,7 +262,7 @@ p {
 .gallery-preview {
     text-align: center;
 }
-.gallery-grid {
+.gallery-grid, .gallery-preview .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
