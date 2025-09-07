@@ -341,3 +341,71 @@ footer {
 .info-card h3 {
   font-size: 14px;
 }
+
+/* Contact Form Section */
+.contact-form-section {
+    padding: 20px;
+    border: 2px solid #ff6600;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-size: 12px;
+    color: #ff6600;
+}
+
+.form-group input,
+.form-group textarea {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #ff6600;
+    padding: 10px;
+    font-family: "Press Start 2P", monospace;
+    font-size: 10px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px #ff6600;
+}
+
+.form-group .error-message {
+    color: #ff0000;
+    font-size: 10px;
+    min-height: 12px;
+}
+
+.form-group input.invalid,
+.form-group textarea.invalid {
+    border-color: #ff0000;
+}
+
+.submit-btn {
+    background-color: #ff6600;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #ff6600;
+    transition: all 0.3s ease;
+    font-size: 10px;
+    font-family: "Press Start 2P", monospace;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.submit-btn:hover {
+    background-color: #000;
+    color: #ff6600;
+}

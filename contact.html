@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gallery - Computer Engineering Dept</title>
+    <title>Contact - Computer Engineering Dept</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
-    </head>
+  </head>
   <body>
     <div class="container">
       <nav>
@@ -23,52 +23,39 @@
       <header>
         <div class="hero-text">
           <p class="college-name">Carmel Polytechnic College</p>
-          <h1>GALLERY</h1>
+          <h1>CONTACT US</h1>
           <p class="department-name">DEPARTMENT</p>
         </div>
         <div class="hero-overlay"></div>
       </header>
       <main>
-        <section class="info-card-section">
-          <h2>// Events</h2>
-          <div class="info-card-list">
-              <div class="info-card">
-                  <h3>> Assocation day</h3>
-              </div>
-              <div class="info-card">
-                  <h3>> parents meeting</h3>
-              </div>
-              <div class="info-card">
-                  <h3>> Workshop- React</h3>
-              </div>
-          </div>
-        </section>
-
-        <section class="gallery-preview">
-            <h2>// Tech Fest</h2>
-            <div class="gallery-grid">
-                <img src="https://placehold.co/300x200?text=Picture+One" alt="Gallery Image 1">
-                <img src="https://placehold.co/300x200?text=Picture+Two" alt="Gallery Image 2">
-                <img src="https://placehold.co/300x200?text=Picture+Three" alt="Gallery Image 3">
+        <section class="contact-form-section">
+          <h2>// Get in Touch</h2>
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">> Name</label>
+              <input type="text" id="name" name="name" required>
+              <span class="error-message"></span>
             </div>
-        </section>
-
-        <section class="info-card-section">
-          <h2>// Class Photos</h2>
-          <div class="info-card-list">
-              <div class="info-card">
-                  <h3>> Batch 2024-2027</h3>
-              </div>
-              <div class="info-card">
-                  <h3>> Batch 2021-2024</h3>
-              </div>
-              <div class="info-card">
-                  <h3>> Batch 2018-2021</h3>
-              </div>
-          </div>
+            <div class="form-group">
+              <label for="email">> Email</label>
+              <input type="email" id="email" name="email" required>
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="phone">> Phone Number</label>
+              <input type="tel" id="phone" name="phone" required>
+              <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">> Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <span class="error-message"></span>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
         </section>
       </main>
-
       <footer>
         <div class="footer-content">
             <div class="contact-info">
@@ -78,7 +65,6 @@
                 <p>Email: info@carmelpoly.in</p>
                 <p>Phone: +91-477-2287825</p>
             </div>
-
             <div class="social-links">
                 <h3>// Find Us Online</h3>
                 <a href="https://www.facebook.com/punnapracarmelpolytechnic/"><i class="fab fa-facebook-f"></i></a>
@@ -92,5 +78,6 @@
         </div>
     </footer>
     </div>
+    <script src="contact.js"></script>
   </body>
 </html>
