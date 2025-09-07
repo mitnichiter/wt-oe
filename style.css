@@ -313,19 +313,19 @@ footer {
     color: #ff6600;
 }
 
-/* Events Section */
-.events {
+/* Info Card Section */
+.info-card-section {
   text-align: center;
 }
 
-.event-list {
+.info-card-list {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
   gap: 20px;
 }
 
-.event-item {
+.info-card {
   border: 2px solid #ff6600;
   padding: 40px 20px;
   width: 32%;
@@ -333,40 +333,11 @@ footer {
   transition: all 0.3s ease;
 }
 
-.event-item:hover {
+.info-card:hover {
   background-color: #ff6600;
   color: #000;
 }
 
-.event-item h3 {
-  font-size: 14px;
-}
-
-/* Class Photos Section */
-.class-photos {
-  text-align: center;
-}
-
-.class-photos-list {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
-  gap: 20px;
-}
-
-.class-photo-item {
-  border: 2px solid #ff6600;
-  padding: 40px 20px;
-  width: 32%;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-
-.class-photo-item:hover {
-  background-color: #ff6600;
-  color: #000;
-}
-
-.class-photo-item h3 {
+.info-card h3 {
   font-size: 14px;
 }
