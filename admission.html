@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission Application - Computer Engineering Dept</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">>C.T<span>_</span></div>
+        <div class="links">
+          <a href="index.html">//Home</a>
+          <a href="syllabus.html">//Syllabus</a>
+          <a href="gallery.html">//Gallery</a>
+          <a href="#">//Alumni</a>
+          <a href="contact.html">//Contact</a>
+        </div>
+        <a href="admission.html" class="apply-btn">Application Form</a>
+      </nav>
+      <header>
+        <div class="hero-text">
+          <p class="college-name">Carmel Polytechnic College</p>
+          <h1>ADMISSION FORM</h1>
+          <p class="department-name">DEPARTMENT OF COMPUTER ENGINEERING</p>
+        </div>
+        <div class="hero-overlay"></div>
+      </header>
+      <main>
+        <section class="admission-form-section">
+          <h2>// Application for Admission</h2>
+          <form id="admission-form" novalidate>
+            <fieldset>
+              <legend>// Personal Details</legend>
+              <div class="form-group">
+                <label for="full-name">> Full Name</label>
+                <input type="text" id="full-name" name="full-name" required>
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <label for="dob">> Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <label for="gender">> Gender</label>
+                <select id="gender" name="gender" required>
+                  <option value="">Select Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <label for="father-name">> Father's Name</label>
+                <input type="text" id="father-name" name="father-name" required>
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <label for="mother-name">> Mother's Name</label>
+                <input type="text" id="mother-name" name="mother-name" required>
+                <span class="error-message"></span>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>// Contact Information</legend>
+              <div class="form-group">
+                <label for="address">> Address</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <label for="phone">> Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <label for="email">> Email</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message"></span>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>// Academic History</legend>
+              <div class="academic-group">
+                <h3>> 10th Grade / Secondary School</h3>
+                <div class="form-group">
+                  <label for="school-10">> School Name</label>
+                  <input type="text" id="school-10" name="school-10" required>
+                  <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                  <label for="board-10">> Board</label>
+                  <input type="text" id="board-10" name="board-10" required>
+                  <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                  <label for="year-10">> Year of Passing</label>
+                  <input type="number" id="year-10" name="year-10" required>
+                  <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                  <label for="gpa-10">> Percentage / GPA</label>
+                  <input type="text" id="gpa-10" name="gpa-10" required>
+                  <span class="error-message"></span>
+                </div>
+              </div>
+              <div class="academic-group">
+                <h3>> 12th Grade / Diploma</h3>
+                <div class="form-group">
+                  <label for="school-12">> School/College Name</label>
+                  <input type="text" id="school-12" name="school-12" required>
+                  <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                  <label for="board-12">> Board / University</label>
+                  <input type="text" id="board-12" name="board-12" required>
+                  <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                  <label for="year-12">> Year of Passing</label>
+                  <input type="number" id="year-12" name="year-12" required>
+                  <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                  <label for="gpa-12">> Percentage / GPA</label>
+                  <input type="text" id="gpa-12" name="gpa-12" required>
+                  <span class="error-message"></span>
+                </div>
+              </div>
+            </fieldset>
+
+            <button type="submit" class="submit-btn">Submit Application</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>// Contact Us</h3>
+                <p>Computer Eng. Dept.</p>
+                <p>Carmel Polytechnic College</p>
+                <p>Email: info@carmelpoly.in</p>
+                <p>Phone: +91-477-2287825</p>
+            </div>
+            <div class="social-links">
+                <h3>// Find Us Online</h3>
+                <a href="https://www.facebook.com/punnapracarmelpolytechnic/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/carmelpoly"><i class="fab fa-twitter"></i></a>
+                <a href="https://in.linkedin.com/school/carmelpoly/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/carmelpoly/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="college-link">
+                 <a href="https://www.carmelpoly.in/" target="_blank">> College Main Website</a>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="admission.js"></script>
+  </body>
+</html>
