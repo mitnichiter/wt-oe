@@ -1,37 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-
 body {
   background-color: #03071e;
   color: #fff;
   font-family: "Press Start 2P", monospace;
   overflow-x: hidden;
 }
-
 .container {
   width: 90%;
   margin: 0 auto;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
   border-bottom: 2px solid #ffba08;
-  
 }
-
 .logo {
   font-size: 20px;
   color: #ffba08;
   text-shadow: 2px 2px #000, 4px 4px #ffba08;
-
-
 }
 .logo span {
   animation: blink 1s steps(1) infinite;
 }
-
 @keyframes blink {
   0%,
   50% {
@@ -42,7 +34,6 @@ nav {
     opacity: 0;
   }
 }
-
 .links a {
   color: #fff;
   text-decoration: none;
@@ -50,12 +41,10 @@ nav {
   font-size: 10px;
   transition: all 0.3s ease;
 }
-
 .links a:hover {
   color: #ffba08;
   text-shadow: 1px 1px #000, 2px 2px #ffba08;
 }
-
 .apply-btn {
   background-color: #ffba08;
   color: #000;
@@ -65,12 +54,10 @@ nav {
   transition: all 0.3s ease;
   font-size: 10px;
 }
-
 .apply-btn:hover {
   background-color: #000;
   color: #ffba08;
 }
-
 header {
   height: 80vh;
   background-image: url("imgs/hp/hero.png");
@@ -84,7 +71,6 @@ header {
   border: 2px solid #ffba08;
   margin-top: 20px;
 }
-
 .hero-overlay {
   position: absolute;
   top: 0;
@@ -94,16 +80,13 @@ header {
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
-
 .hero-text {
   z-index: 2;
 }
-
 .college-name {
   font-size: 20px;
   margin-bottom: 6px;
 }
-
 h1 {
   font-size: 60px;
   color: #ffba08;
@@ -111,18 +94,15 @@ h1 {
   margin: 0;
   line-height: 70px;
 }
-
 .department-name {
   font-size: 30px;
   margin-top: 10px;
 }
-
 section {
     margin-top: 50px;
     padding: 20px;
     border: 2px solid #ffba08;
 }
-
 .about {
   display: flex;
   gap: 30px;
@@ -226,7 +206,7 @@ p {
 .spotlight-card {
     border: 2px solid #ffba08;
     padding: 20px;
-    width: 30%;
+    width: 40%;
     transition: all 0.3s ease;
 }
 .spotlight-card:hover {
