@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 body {
-  background-color: #000;
+  background-color: #03071e;
   color: #fff;
   font-family: "Press Start 2P", monospace;
   overflow-x: hidden;
@@ -17,13 +17,16 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  border-bottom: 2px solid #ff6600;
+  border-bottom: 2px solid #ffba08;
+  
 }
 
 .logo {
   font-size: 20px;
-  color: #ff6600;
-  text-shadow: 2px 2px #000, 4px 4px #ff6600;
+  color: #ffba08;
+  text-shadow: 2px 2px #000, 4px 4px #ffba08;
+
+
 }
 .logo span {
   animation: blink 1s steps(1) infinite;
@@ -49,23 +52,23 @@ nav {
 }
 
 .links a:hover {
-  color: #ff6600;
-  text-shadow: 1px 1px #000, 2px 2px #ff6600;
+  color: #ffba08;
+  text-shadow: 1px 1px #000, 2px 2px #ffba08;
 }
 
 .apply-btn {
-  background-color: #ff6600;
+  background-color: #ffba08;
   color: #000;
   padding: 10px 20px;
   text-decoration: none;
-  border: 2px solid #ff6600;
+  border: 2px solid #ffba08;
   transition: all 0.3s ease;
   font-size: 10px;
 }
 
 .apply-btn:hover {
   background-color: #000;
-  color: #ff6600;
+  color: #ffba08;
 }
 
 header {
@@ -78,7 +81,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 2px solid #ff6600;
+  border: 2px solid #ffba08;
   margin-top: 20px;
 }
 
@@ -103,8 +106,8 @@ header {
 
 h1 {
   font-size: 60px;
-  color: #ff6600;
-  text-shadow: 3px 3px #000, 6px 6px #ff6600;
+  color: #ffba08;
+  text-shadow: 3px 3px #000, 6px 6px #ffba08;
   margin: 0;
   line-height: 70px;
 }
@@ -117,7 +120,7 @@ h1 {
 section {
     margin-top: 50px;
     padding: 20px;
-    border: 2px solid #ff6600;
+    border: 2px solid #ffba08;
 }
 
 .about {
@@ -130,7 +133,7 @@ section {
 
 .about-image {
   flex: 1;
-  border: 2px solid #ff6600;
+  border: 2px solid #ffba08;
 }
 
 .about-image img {
@@ -143,7 +146,7 @@ section {
 }
 
 h2 {
-  color: #ff6600;
+  color: #ffba08;
   font-size: 20px;
   margin-bottom: 20px;
 }
@@ -164,7 +167,7 @@ p {
 }
 .mission-column h3 {
     font-size: 12px;
-    color: #ff6600;
+    color: #ffba08;
     margin-bottom: 15px;
 }
 .mission-column ul {
@@ -178,7 +181,7 @@ p {
 }
 .mission-column ul li::before {
     content: '// ';
-    color: #ff6600;
+    color: #ffba08;
 }
 
 /* Labs Section */
@@ -194,7 +197,7 @@ p {
 }
 
 .lab-card {
-  border: 2px solid #ff6600;
+  border: 2px solid #ffba08;
   padding: 40px 20px;
   width: 32%;
   text-align: center;
@@ -202,7 +205,7 @@ p {
 }
 
 .lab-card:hover {
-  background-color: #ff6600;
+  background-color: #ffba08;
   color: #000;
 }
 
@@ -221,7 +224,7 @@ p {
     margin-bottom: 30px;
 }
 .spotlight-card {
-    border: 2px solid #ff6600;
+    border: 2px solid #ffba08;
     padding: 20px;
     width: 30%;
     transition: all 0.3s ease;
@@ -232,13 +235,13 @@ p {
 .spotlight-card img {
     width: 100px;
     height: 100px;
-    border: 2px solid #ff6600;
+    border: 2px solid #ffba08;
     margin-bottom: 15px;
     image-rendering: pixelated;
 }
 .spotlight-card h4 {
     font-size: 12px;
-    color: #ff6600;
+    color: #ffba08;
     margin-bottom: 5px;
 }
 .spotlight-card p {
@@ -246,15 +249,15 @@ p {
 }
 .view-all-btn {
     background-color: transparent;
-    color: #ff6600;
+    color: #ffba08;
     padding: 10px 20px;
     text-decoration: none;
-    border: 2px solid #ff6600;
+    border: 2px solid #ffba08;
     transition: all 0.3s ease;
     font-size: 10px;
 }
 .view-all-btn:hover {
-    background-color: #ff6600;
+    background-color: #ffba08;
     color: #000;
 }
 
@@ -270,7 +273,7 @@ p {
 }
 .gallery-grid img {
     width: 100%;
-    border: 2px solid #ff6600;
+    border: 2px solid #ffba08;
     transition: transform 0.3s ease;
 }
 .gallery-grid img:hover {
@@ -282,7 +285,7 @@ footer {
   text-align: center;
   padding: 30px 0;
   margin-top: 50px;
-  border-top: 2px solid #ff6600;
+  border-top: 2px solid #ffba08;
 }
 .footer-content {
     display: flex;
@@ -292,7 +295,7 @@ footer {
 }
 .footer-content h3 {
     font-size: 14px;
-    color: #ff6600;
+    color: #ffba08;
     margin-bottom: 15px;
 }
 .social-links a {
@@ -302,7 +305,7 @@ footer {
     transition: all 0.3s ease;
 }
 .social-links a:hover {
-    color: #ff6600;
+    color: #ffba08;
 }
 .college-link a {
     color: #fff;
@@ -310,7 +313,7 @@ footer {
     transition: all 0.3s ease;
 }
 .college-link a:hover {
-    color: #ff6600;
+    color: #ffba08;
 }
 
 /* Info Card Section */
@@ -326,7 +329,7 @@ footer {
 }
 
 .info-card {
-  border: 2px solid #ff6600;
+  border: 2px solid #ffba08;
   padding: 40px 20px;
   width: 32%;
   text-align: center;
@@ -334,7 +337,7 @@ footer {
 }
 
 .info-card:hover {
-  background-color: #ff6600;
+  background-color: #ffba08;
   color: #000;
 }
 
@@ -345,7 +348,7 @@ footer {
 /* Contact Form Section */
 .contact-form-section {
     padding: 20px;
-    border: 2px solid #ff6600;
+    border: 2px solid #ffba08;
 }
 
 #contact-form {
@@ -362,14 +365,14 @@ footer {
 
 .form-group label {
     font-size: 12px;
-    color: #ff6600;
+    color: #ffba08;
 }
 
 .form-group input,
 .form-group textarea {
     background-color: #000;
     color: #fff;
-    border: 2px solid #ff6600;
+    border: 2px solid #ffba08;
     padding: 10px;
     font-family: "Press Start 2P", monospace;
     font-size: 10px;
@@ -378,7 +381,7 @@ footer {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    box-shadow: 0 0 10px #ff6600;
+    box-shadow: 0 0 10px #ffba08;
 }
 
 .form-group .error-message {
@@ -393,11 +396,11 @@ footer {
 }
 
 .submit-btn {
-    background-color: #ff6600;
+    background-color: #ffba08;
     color: #000;
     padding: 10px 20px;
     text-decoration: none;
-    border: 2px solid #ff6600;
+    border: 2px solid #ffba08;
     transition: all 0.3s ease;
     font-size: 10px;
     font-family: "Press Start 2P", monospace;
@@ -407,23 +410,23 @@ footer {
 
 .submit-btn:hover {
     background-color: #000;
-    color: #ff6600;
+    color: #ffba08;
 }
 
 /* Admission Form Section */
 .admission-form-section {
     padding: 20px;
-    border: 2px solid #ff6600;
+    border: 2px solid #ffba08;
 }
 
 #admission-form fieldset {
-    border: 2px solid #ff6600;
+    border: 2px solid #ffba08;
     margin-bottom: 20px;
     padding: 20px;
 }
 
 #admission-form legend {
-    color: #ff6600;
+    color: #ffba08;
     font-size: 14px;
     padding: 0 10px;
 }
@@ -434,6 +437,68 @@ footer {
 
 .academic-group h3 {
     font-size: 12px;
-    color: #ff6600;
+    color: #ffba08;
     margin-bottom: 15px;
+}
+/* --- Syllabus Page Styles --- */
+
+.syllabus-header {
+    text-align: center;
+    margin-bottom: 40px;
+    border: 2px solid #ffba08;
+    padding: 20px;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+#searchInput {
+    width: 60%;
+    padding: 10px;
+    background-color: #222;
+    border: 2px solid #ffba08;
+    color: #fff;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 10px;
+    text-align: center;
+}
+
+#searchInput::placeholder {
+    color: #888;
+}
+
+#searchInput:focus {
+    outline: none;
+    box-shadow: 0 0 10px #ffba08;
+}
+
+.semester {
+    margin-bottom: 40px;
+    border: 2px solid #ffba08;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.semester.hidden {
+    display: none;
+}
+
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.course-table th, .course-table td {
+    border: 1px solid #ffba08;
+    padding: 12px;
+    text-align: left;
+    font-size: 10px;
+}
+
+.course-table th {
+    background-color: #ffba08;
+    color: #000;
+    font-size: 12px;
 }
